@@ -1,0 +1,36 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14.5px;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background: #19a2ae;
+}
+
+#circle-top img {
+  height: 39rem;
+  position: absolute;
+  left: -25rem;
+  top: -18.45rem;
+  -webkit-transform: rotate(342deg);
+          transform: rotate(342deg);
+}
+
+#circle-bottom img {
+  height: 39rem;
+  position: absolute;
+  top: 22rem;
+  left: 10rem;
+  -webkit-transform: rotate(31deg);
+          transform: rotate(31deg);
+}
+/*# sourceMappingURL=main.css.map */
