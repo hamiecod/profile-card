@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans");
 * {
   padding: 0;
   margin: 0;
@@ -10,10 +10,29 @@ html {
   font-size: 14.5px;
 }
 
+body {
+  font-family: 'Kumbh Sans';
+}
+
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 main {
   height: 100vh;
   width: 100vw;
   background: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #circle-top img {
@@ -28,9 +47,117 @@ main {
 #circle-bottom img {
   height: 39rem;
   position: absolute;
-  top: 22rem;
-  left: 10rem;
-  -webkit-transform: rotate(31deg);
-          transform: rotate(31deg);
+  top: 28rem;
+  left: 12rem;
+  -webkit-transform: rotate(356deg);
+          transform: rotate(356deg);
+}
+
+.profile-card {
+  z-index: 2;
+  height: 56.5675vh;
+  width: 87vw;
+  border-radius: 0.7rem;
+  background: #fff;
+}
+
+.profile-card__design {
+  height: 36%;
+  background-image: url(../images/bg-pattern-card.svg);
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.profile-card__stats {
+  height: 42%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.08rem solid #969696;
+}
+
+.profile-card__stats-img {
+  height: 8rem;
+  width: 8rem;
+  margin-top: -3.15rem;
+  background: url("../images/image-victor.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 8rem;
+  border: 0.4rem solid #fff;
+}
+
+.profile-card__stats-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.44rem;
+  margin-top: 1.67rem;
+}
+
+.profile-card__stats-data__name {
+  font-weight: 700;
+  margin: 0rem 0.2rem;
+  color: #2d3248;
+}
+
+.profile-card__stats-data__age {
+  color: #969696;
+  margin: 0rem 0.2rem;
+}
+
+.profile-card__stats-location {
+  color: #969696;
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+}
+
+.profile-card__analytics {
+  height: 22%;
+  width: 84%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profile-card__analytics-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-card__analytics-category__count {
+  font-weight: 700;
+  font-size: 1.34rem;
+  margin-bottom: 0.6rem;
+  color: #2d3248;
+}
+
+.profile-card__analytics-category__title {
+  font-weight: 400;
+  color: #969696;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
 }
 /*# sourceMappingURL=main.css.map */

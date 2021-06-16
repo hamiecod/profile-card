@@ -1,0 +1,79 @@
+.profile-card{
+    z-index: 2;
+    height: 56.5675vh;
+    width: 87vw;
+    border-radius: 0.7rem;
+    background: #fff;
+    
+    &__design{
+       height: 36%; 
+       background-image: url(../images/bg-pattern-card.svg);
+       border-radius: 0.7rem 0.7rem 0 0;
+       // border-radius: top-left top-right bottom-right bottom-left;
+       // more: https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+    }
+
+    &__stats{
+        height: 42%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	
+	// to seperate it from analytics
+	border-bottom: 0.08rem solid $dark-gray;
+        &-img{
+            height: 8rem;
+            width: 8rem;
+            margin-top: -3.15rem;
+            background: url('../images/image-victor.jpg') no-repeat center center;
+            background-size: cover;
+            border-radius: 8rem;
+            border: 0.4rem solid #fff;
+        }    
+	&-data{
+		display: flex;
+		flex-direction: row;
+		font-size: 1.44rem;
+		margin-top: 1.67rem;
+		&__name{
+		    font-weight: weights(bold); 
+		    margin: 0rem 0.2rem;
+		    color: $dark-blue;
+		}
+		&__age{
+		   color: $dark-gray; 
+		   margin: 0rem 0.2rem;
+		}
+	}
+	&-location{
+		color: $dark-gray;
+		margin-top: 0.7rem;
+		font-size: 1.1rem;
+	}
+    }
+    &__analytics{
+	height: 22%;
+	width: 84%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+        &-category{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		&__count{
+			font-weight: weights(bold);
+			font-size: 1.34rem;
+			margin-bottom: 0.6rem;
+			color: $dark-blue;
+		}
+		&__title{
+			font-weight: weights(regular);
+			color: $dark-gray;
+			font-size: 0.8rem;
+			letter-spacing: 0.15rem;
+		}
+	}
+    }
+}
