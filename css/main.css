@@ -37,7 +37,7 @@ main {
 
 #circle-top img {
   height: 39rem;
-  position: absolute;
+  position: fixed;
   left: -25rem;
   top: -18.45rem;
   -webkit-transform: rotate(342deg);
@@ -46,7 +46,7 @@ main {
 
 #circle-bottom img {
   height: 39rem;
-  position: absolute;
+  position: fixed;
   top: 28rem;
   left: 12rem;
   -webkit-transform: rotate(356deg);

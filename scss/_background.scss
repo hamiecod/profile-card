@@ -17,7 +17,7 @@ main {
   &-top {
     img {
       height: 39rem;
-      position: absolute;
+      position: fixed;
       left: -25rem;
       top: -18.45rem;
       transform: rotate(342deg);
@@ -28,7 +28,7 @@ main {
   &-bottom {
     img {
       height: 39rem;
-      position: absolute;
+      position: fixed;
       top: 28rem;
       left: 12rem;
       transform: rotate(356deg);
