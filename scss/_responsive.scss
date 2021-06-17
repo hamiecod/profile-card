@@ -3,8 +3,7 @@ html font-sizes:
 phone: 14.5px
 tablet: 16px
 large-tablet(ipad pro): 19px
-small-laptops: 20px
-laptop: 22px;
+desktops: 13px;
 
 iPad Pro horizontal is considered under small laptops
 iPad Pro vertical is considered under large tablets
@@ -78,6 +77,38 @@ iPad Pro vertical is considered under large tablets
         height: 57rem;
         top: 38rem;
         left: 30rem;
+      }
+    }
+  }
+}
+
+@include desktop{
+  html{
+    font-size: 13px;
+  }
+  .profile-card{
+    height: 55.3vh;
+    width: 24.6vw;
+    &__stats{
+      &-data{
+        font-size: 1.3rem;
+      }
+    }
+  }
+  #circle{
+    &-top{
+      img{
+        height: 62rem;
+        left: -15rem;
+        top: -32rem;
+        transform: rotate(0deg);
+      }
+    }
+    &-bottom{
+      img{
+          height: 65rem;
+          left: 46rem;
+          top: 26rem;
       }
     }
   }

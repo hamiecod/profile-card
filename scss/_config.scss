@@ -12,6 +12,9 @@ $tablet-max-height: 1270px;
 // these are particularly for large tables like ipad pro
 $large-tablet-min-height: 1270px;
 
+//desktop- including iPad Pro and notebook computers
+$desktop-min-width: 1024px;
+
 // CSS Reset
 * {
   padding: 0;
@@ -54,6 +57,12 @@ $font-weights: (
 
 @mixin large-tablet-vertical{
   @media screen and (min-height: $large-tablet-min-height){
+    @content;
+  }
+}
+
+@mixin desktop{
+  @media screen and (min-width: $desktop-min-width){
     @content;
   }
 }

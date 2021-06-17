@@ -57,8 +57,10 @@ main {
   z-index: 2;
   height: 56.5675vh;
   width: 87vw;
-  border-radius: 0.7rem;
+  border-radius: 0.75rem;
   background: #fff;
+  -webkit-box-shadow: 0.1rem 0.1rem 3rem #7b7777;
+          box-shadow: 0.1rem 0.1rem 3rem #7b7777;
 }
 
 .profile-card__design {
@@ -166,8 +168,7 @@ html font-sizes:
 phone: 14.5px
 tablet: 16px
 large-tablet(ipad pro): 19px
-small-laptops: 20px
-laptop: 22px;
+desktops: 13px;
 
 iPad Pro horizontal is considered under small laptops
 iPad Pro vertical is considered under large tablets
@@ -223,6 +224,31 @@ iPad Pro vertical is considered under large tablets
     height: 57rem;
     top: 38rem;
     left: 30rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+  .profile-card {
+    height: 55.3vh;
+    width: 24.6vw;
+  }
+  .profile-card__stats-data {
+    font-size: 1.3rem;
+  }
+  #circle-top img {
+    height: 62rem;
+    left: -15rem;
+    top: -32rem;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  #circle-bottom img {
+    height: 65rem;
+    left: 46rem;
+    top: 26rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
