@@ -32,10 +32,15 @@ I took this challenge too seriously :sweat_smile: as the participants were only 
 ### Screenshot
 
 ![Desktop Design](./screenshots/desktop.png)
+<br> Desktop Design
 ![Vertical Mobile Phone Design(Google Pixel 2)](./screenshots/mobile-vertical.png)
+<br> Vertical Mobile Phone Design - Google Pixel 2
 ![Horizontal Mobile Phone Design(Google Pixel 2)](./screenshots/mobile-horizontal.png)
+<br> Horizontal Mobile Phone Design - Google Pixel 2
 ![Horizontal Tablet Design(iPad)](./screenshots/tablet-horizontal.png)
+<br> Horizontal Tablet Design - iPad
 ![Vertical Tablet Design(iPad)](./screenshots/tablet-vertical.png)
+<br> Vertical Tablet Design - iPad
 
 ### Links
 
