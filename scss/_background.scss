@@ -9,6 +9,7 @@ main {
   width: 100vw;
   background: $dark-cyan;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -34,4 +35,10 @@ main {
       transform: rotate(356deg);
     }
   }
+}
+
+// miscellanous- attribution
+.attribution{
+  position: fixed;
+  bottom: 0.2rem;
 }
