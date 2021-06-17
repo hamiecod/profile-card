@@ -31,11 +31,11 @@ I took this challenge too seriously :sweat_smile: as the participants were only 
 
 ### Screenshot
 
-![Desktop Design](./screenshots/desktop.png) Desktop Design
-![Vertical Mobile Phone Design(Google Pixel 2)](./screenshots/mobile-vertical.png) Vertical Mobile Phone Design - Google Pixel 2
-![Horizontal Mobile Phone Design(Google Pixel 2)](./screenshots/mobile-horizontal.png) Horizontal Mobile Phone Design - Google Pixel 2
-![Horizontal Tablet Design(iPad)](./screenshots/tablet-horizontal.png) Horizontal Tablet Design - iPad
-![Vertical Tablet Design(iPad)](./screenshots/tablet-vertical.png) Vertical Tablet Design - iPad
+![Desktop Design](./screenshots/desktop.png) 
+![Vertical Mobile Phone Design(Google Pixel 2)](./screenshots/mobile-vertical.png) 
+![Horizontal Mobile Phone Design(Google Pixel 2)](./screenshots/mobile-horizontal.png) 
+![Horizontal Tablet Design(iPad)](./screenshots/tablet-horizontal.png)
+![Vertical Tablet Design(iPad)](./screenshots/tablet-vertical.png) 
 
 ### Links
 
