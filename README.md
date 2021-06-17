@@ -14,6 +14,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
+    - [To-do](#to-do)
     - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
@@ -65,6 +66,9 @@ I took this challenge too seriously :sweat_smile: as the participants were only 
 
 ### Continued development
 - I would like to learn how to deploy to netlify and heroku
+
+### To Do
+- Make it responsive for TV and 4k and 8k monitors :joy:
 
 ### Useful resources
 
