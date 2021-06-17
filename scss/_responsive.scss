@@ -9,9 +9,39 @@ iPad Pro horizontal is considered under small laptops
 iPad Pro vertical is considered under large tablets
 */
 
+// for horizontal mobile devices
+@include mobile-horizontal{
+  html{
+    font-size: 10px;
+  }
+  .profile-card{
+    width: 32vw;
+  }
+  #circle{
+    &-top{
+      img{
+        height: 45rem;
+        left: -14rem;
+        top: -17.45rem;
+        transform: rotate(357deg);
+      }
+    }
+    &-bottom{
+      img{
+        height: 45rem;
+        top: 24rem;
+        left: 37rem;
+      }
+    }
+  }
+}
+
 @include tablet-horizontal{
   html{
     font-size: 16px;
+  }
+  .profile-card{
+    width: 40vw;
   }
   #circle{
     &-top{
@@ -36,7 +66,7 @@ iPad Pro vertical is considered under large tablets
   }
   .profile-card{
     height: 50vh;
-    width: 65vw;
+    width: 67vw;
   }
   #circle{
     &-top{

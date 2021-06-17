@@ -3,7 +3,11 @@ $dark-cyan: hsl(185, 75%, 39%);
 $dark-blue: hsl(229, 23%, 23%);
 $gray-blue: hsl(227, 10%, 46%);
 $dark-gray: hsl(0, 0%, 59%);
-// for media query
+
+// horizontal mobile devices
+$mobile-max-height: 440px;
+
+// for tablet devices
 $tablet-max-width: 1024px;
 $tablet-min-width: 768px;
 $tablet-min-height: 850px;
@@ -13,7 +17,7 @@ $tablet-max-height: 1270px;
 $large-tablet-min-height: 1270px;
 
 //desktop- including iPad Pro and notebook computers
-$desktop-min-width: 1024px;
+$desktop-min-width: 1025px;
 
 // CSS Reset
 * {
@@ -42,6 +46,12 @@ $font-weights: (
   @return map-get($font-weights, $weight);
 }
 // will set $weight(regular/bold) as the font weight
+
+@mixin mobile-horizontal{
+  @media screen and (max-height: $mobile-max-height){
+    @content;
+  }
+}
 
 @mixin tablet-horizontal{
   @media screen and (min-width: $tablet-min-width) and(max-width: $tablet-max-width) {
