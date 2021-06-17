@@ -7,6 +7,10 @@ $dark-gray: hsl(0, 0%, 59%);
 $tablet-max-width: 1024px;
 $tablet-min-width: 768px;
 $tablet-min-height: 850px;
+$tablet-max-height: 1270px;
+
+// these are particularly for large tables like ipad pro
+$large-tablet-min-height: 1270px;
 
 // CSS Reset
 * {
@@ -43,7 +47,13 @@ $font-weights: (
 }
 
 @mixin tablet-vertical{
-  @media screen and (min-height: $tablet-min-height){
+  @media screen and (min-height: $tablet-min-height) and (max-height: $tablet-max-height){
+    @content;
+  }
+}
+
+@mixin large-tablet-vertical{
+  @media screen and (min-height: $large-tablet-min-height){
     @content;
   }
 }
