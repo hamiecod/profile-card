@@ -2,7 +2,8 @@
 html font-sizes:
 phone: 14.5px
 tablet: 16px
-laptop: 18.5px;
+small-laptops: 17px
+laptop: 19px;
 
 iPad Pro is considered under small laptops
 */
@@ -23,6 +24,30 @@ iPad Pro is considered under small laptops
         height: 45rem;
         left: 48rem;
         top: 25rem;
+      }
+    }
+  }
+}
+
+@include tablet-vertical{
+  html{
+    font-size: 16px;
+  }
+  .profile-card{
+    height: 50vh;
+    width: 65vw;
+  }
+  #circle{
+    &-top{
+      img{
+        height: 50rem;
+      }
+    }
+    &-bottom{
+      img{
+        height: 50rem;
+        left: 26rem;
+        top: 33rem;
       }
     }
   }

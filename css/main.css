@@ -165,9 +165,12 @@ main {
 html font-sizes:
 phone: 14.5px
 tablet: 16px
-laptop: 18.5px;
+small-laptops: 17px
+laptop: 19px;
+
+iPad Pro is considered under small laptops
 */
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
     font-size: 16px;
   }
@@ -180,6 +183,24 @@ laptop: 18.5px;
     height: 45rem;
     left: 48rem;
     top: 25rem;
+  }
+}
+
+@media screen and (min-height: 850px) {
+  html {
+    font-size: 16px;
+  }
+  .profile-card {
+    height: 50vh;
+    width: 70vw;
+  }
+  #circle-top img {
+    height: 50rem;
+  }
+  #circle-bottom img {
+    height: 50rem;
+    left: 26rem;
+    top: 33rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
