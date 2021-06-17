@@ -160,4 +160,26 @@ main {
   font-size: 0.8rem;
   letter-spacing: 0.15rem;
 }
+
+/*
+html font-sizes:
+phone: 14.5px
+tablet: 16px
+laptop: 18.5px;
+*/
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+  #circle-top img {
+    height: 45rem;
+    -webkit-transform: rotate(27deg);
+            transform: rotate(27deg);
+  }
+  #circle-bottom img {
+    height: 45rem;
+    left: 48rem;
+    top: 25rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */

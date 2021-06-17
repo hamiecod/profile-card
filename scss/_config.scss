@@ -3,6 +3,10 @@ $dark-cyan: hsl(185, 75%, 39%);
 $dark-blue: hsl(229, 23%, 23%);
 $gray-blue: hsl(227, 10%, 46%);
 $dark-gray: hsl(0, 0%, 59%);
+// for media query
+$tablet-max-width: 1024px;
+$tablet-min-width: 768px;
+$tablet-min-height: 850px;
 
 // CSS Reset
 * {
@@ -31,3 +35,15 @@ $font-weights: (
   @return map-get($font-weights, $weight);
 }
 // will set $weight(regular/bold) as the font weight
+
+@mixin tablet-horizontal{
+  @media screen and (min-width: $tablet-min-width) and(max-width: $tablet-max-width) {
+    @content;
+  }
+}
+
+@mixin tablet-vertical{
+  @media screen and (min-height: $tablet-min-height){
+    @content;
+  }
+}

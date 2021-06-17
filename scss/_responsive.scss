@@ -1,0 +1,29 @@
+/*
+html font-sizes:
+phone: 14.5px
+tablet: 16px
+laptop: 18.5px;
+
+iPad Pro is considered under small laptops
+*/
+
+@include tablet-horizontal{
+  html{
+    font-size: 16px;
+  }
+  #circle{
+    &-top{
+      img{
+        height: 45rem;
+        transform: rotate(27deg);
+      }
+    }
+    &-bottom{
+      img{
+        height: 45rem;
+        left: 48rem;
+        top: 25rem;
+      }
+    }
+  }
+}
