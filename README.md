@@ -40,7 +40,7 @@ I took this challenge too seriously :sweat_smile: as the participants were only 
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-using-scss-qx9PG5a8p)
 - [Live Site URL](https://hamiecod.github.io/profile-card)
 
 ## My process
